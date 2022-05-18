@@ -20,6 +20,11 @@ C++ <form:radiobutton path="favouriteLanguage" value="C++" />
 Python <form:radiobutton path="favouriteLanguage" value="Python" />
 PHP <form:radiobutton path="favouriteLanguage" value="PHP" />
 <br></br>
+Operating Systems:
+Linux <form:checkbox path="operatingSystems" value="linux" />
+Mac OS <form:checkbox path="operatingSystems" value="Mac OS" />
+MS Windows <form:checkbox path="operatingSystems" value="MS  Windows" />
+<br></br>
 <input type="submit" value="submit" />
 </form:form>
 </body>

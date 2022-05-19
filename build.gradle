@@ -15,6 +15,7 @@ repositories {
 dependencies {
 	implementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper'
 	implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
+	implementation 'org.hibernate.validator:hibernate-validator:6.2.0.Final'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

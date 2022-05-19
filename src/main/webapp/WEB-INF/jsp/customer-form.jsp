@@ -14,6 +14,9 @@ First name: <form:input path="firstName" />
 Last name(*) : <form:input path="lastName" />
 <form:errors path="lastName" cssClass="error" />
 <br></br>
+FreePasses : <form:input path="freePasses" />
+<form:errors path="freePasses" cssClass="error" />
+<br></br>
 <input type="submit" value="submit" />
 </form:form>
 </body>
